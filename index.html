@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume Form</title>
+</head>
+<body>
+<h1 align= center >RESUME</h1>
+<form action= "Res" method="get">
+
+	First Name :<input type ="text" name="firstName" placeholder="First Name" required="required"><br><br>
+	
+	Last Name :<input type ="text" name="lastName" placeholder="Last Name" required="required"><br><br>
+	
+	Date Of Birth:<input type ="date" name="dateOfBirth" ><br><br>
+	
+	
+	Gender: <input type ="radio" name="gender" value="male" checked> Male 
+			 <input type ="radio" name="gender" value="female"> Female 
+			 <input type ="radio" name="gender" value="others"> Others <br><br>
+			 
+	Highest Qualification: <select>
+								<option value="default" name="qualification">select	</option>
+								<option value="X" name="qualification">SSC	</option>
+								<option value="XII" name="qualification">HSC	</option>
+								<option value="Gr" name="qualification">Graduation	</option>
+								<option value="Mr" name="qualification">Masters	</option>
+								<option value="PHd" name="qualification">PHd	</option>
+							</select> <br><br>
+	
+
+	
+	Hobbies: <select multiple>
+				<option value="default" name ="hobbies">select	</option>
+				<option value="sing" name ="hobbies">Singing	</option>
+				<option value="dance" name ="hobbies">Dance	</option>
+				<option value="movie" name ="hobbies">Movies	</option>
+				<option value="reading" name ="hobbies">Reading	</option>
+				<option value="sports" name ="hobbies">Sports	</option>
+				
+			</select><br><br>
+	
+	Address : <textarea rows="5" cols="10" name ="address" placeholder="Enter the address here" required="required"></textarea><br><br>
+	
+	Photo : <input type="file" name="fileupload" accept= "image/*"><br><br>
+	
+	Skills : <input type="checkbox" name ="check">C &nbsp&nbsp <input type="checkbox" name ="check"> C++ <br> <br>
+&nbsp&nbsp &nbsp&nbsp <input type="checkbox" name ="check"> Java &nbsp&nbsp <input type="checkbox" name ="check"> .NET <br><br>
+			 
+	Email : <input type="text" required="required" placeholder="abc@email.com" name="email"> <br><br> 
+	
+	Website :<input type="text" placeholder="eg. www.example.com" name ="web"> <br> <br>
+	
+	Contact Number : <input type="tel" placeholder="xxxxxxxxxx" name ="number"><br><br>
+
+ 	Description: <textarea rows="5" cols="10" name ="description">Enter text here.... </textarea> <br><br>
+ 	
+ 	<input type="reset" value="Reset"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" value="Submit">
+ 	
+</form>
+</body>
+</html>
